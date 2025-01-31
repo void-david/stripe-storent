@@ -1,0 +1,31 @@
+nav {
+  background-color: white;
+  border: 2px solid blue;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:not(.logo) {
+  padding-left: 100px;
+}
